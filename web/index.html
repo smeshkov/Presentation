@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<style type="text/css">@import 'fauxconsole.css';</style>
+	<script type="text/javascript" src="fauxconsole.js"></script>
+	<![endif]-->
+	<title>Prsentation</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen, projection" />	
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/slideshow.js"></script>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+	<header id="header">
+	</header><!-- #header-->
+
+	<section id="middle">
+
+		<div id="container">
+			<div id="content">		
+			</div><!-- #content-->			
+		</div><!-- #container-->
+
+	</section><!-- #middle-->
+
+</div><!-- #wrapper -->
+
+<footer id="footer">
+</footer><!-- #footer -->
+
+<div id="slides-tab">
+	<div id="slides-list"></div>
+</div>
+
+<div id="control-tab">
+	<div id="controls">
+		<a class="arrows" id="arrow-left" onclick="showControls();prevSlide();"></a>
+		<a class="arrows" id="b-stop" onclick="showControls();stop();"></a>
+		<a class="arrows" id="b-start" onclick="showControls();play();"></a>
+		<a class="arrows" id="arrow-right" onclick="showControls();nextSlide();"></a>
+	</div>
+</div>
+
+</body>
+</html>
